@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Mulish:wght@600&family=Poppins&display=swap');
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4664;
+}
+
+.container{
+    height: 34em;
+    width: 90%;
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    height: 3em;
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title p{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Mulish', sans-serif;
+}
+
+.screen{
+    outline: none;
+    color: white;
+    font-size: 3em;
+    border-radius: 9px;
+    text-align: right;
+    padding: 17px 20px 20px;
+    background-color: #181F32;
+}
+
+.buttons{
+    height: 22.5em;
+    margin-top: .5em;
+    border-radius: 9px;
+    background-color: #252C46;
+}
