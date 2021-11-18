@@ -47,7 +47,49 @@ body{
 
 .buttons{
     height: 22.5em;
-    margin-top: .5em;
     border-radius: 9px;
     background-color: #252C46;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 470px;
+    margin-top: .5em;
+    padding: 22px;
+    font-weight: 600;
 }
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stretch .grid-item {
+    width: 45%;
+}
+
+.numbers,
+.text {
+    background-color: #EAE3DB;
+    width: 20%;
+    text-align: center;
+    padding: .2em;
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    background-color: #64719B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    padding: 0 7px;
+}
+
+.equalsto {
+    background-color: #D13F30;
+}
+
