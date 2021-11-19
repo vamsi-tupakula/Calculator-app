@@ -15,3 +15,8 @@ function calculate(){
 function reset(){
     screen.value = "";
 }
+
+function del(){
+    let text = screen.value.toString();
+    screen.value = text.slice(0,text.length-1);
+}
